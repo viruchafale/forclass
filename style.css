@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(245, 245, 247, .8);
+}
+
+p{
+    margin-left: 300px;
+}
+
+.header{
+    background-color: rgb(239, 230, 230);
+    padding: 30px;
+    display: flex;
+}
+
+#country{
+    margin-left: 20px;
+    border-radius: 17px;
+    width: 300px;
+    border: 2px solid rgb(57, 57, 239);
+}
+
+button{
+    background-color: black;
+    border-radius: 17px;
+    margin-left: 10px;
+    width: 150px;
+    color: white;
+    text-size-adjust: 32px;
+}
+
+.menubar{
+    display: flex;
+    /* margin-left: 50px; */
+    justify-content:space-between;
+    /* width: 50%; */
+    align-content: center;
+    
+}
+
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            height: 800px;
+            border: 2px solid red;
+            grid-template-columns: repeat(5,1fr);
+            gap: 10px;
+        }
+
+        .child{
+            border: 2px solid red;
+
+        }
+        .child1{
+            background-color: brown;
+            grid-column-start: 4;
+            grid-row-start: 4;
+        }
+        .child2{
+            background-color: white;
+            grid-column-start: 1;
+            grid-row-start: 1;
+            grid-row-end: 7;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        collapsing cell
+    </h1>
+    <div class="container">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child1"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child child2"></div>
+
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+
+    </div>
+    
+</body>
+</html>
